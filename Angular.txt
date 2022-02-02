@@ -1,0 +1,34 @@
+
+1.ng new app-name
+2.ng serve (Run )
+ Get-ExecutionPolicy -List
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+*TypeScript:
+
+--------------------------------------------------
+
+1.src/app/app.components.
+2.install bootstrap.
+3.angular.json
+->add path in above
+->node_modules/bootstrap/dist/css/bootstrap.min.css
+4.
+in app make server folder.
+in server -> server.component.ts
+--------------------------------------------------
+create new component by manually:
+import {Component} from '@angular/core
+@Component({
+
+})
+
+export class ServerComponent{
+}
+in server -> server.component.html
+          
+
+---------------------------------------------------
+create new component by cmd
+cmd- ng generate component severs or ng g c servers
+

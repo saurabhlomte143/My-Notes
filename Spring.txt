@@ -1,0 +1,9 @@
+1.core java
+2.JDBC
+3.Servlet JSP
+
+*Spring Modules:
+1.Core
+2.beans
+3.context
+4.spEL

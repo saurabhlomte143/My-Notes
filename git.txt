@@ -1,0 +1,47 @@
+git repo:
+1.git clone ssh-link.
+2.cd repo name.
+
+1.git status
+2.git add fileName (if new file create)
+3.git add . (Add all file)
+4.git status
+
+1.git commit -m "changes" -m "descripton"
+
+#SSH
+
+1.ssh-keygen -t rsa -b 4096 -C "saurabh.lomte@novopay.in"
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_rsa
+clip < ~/.ssh/id_rsa.pub
+2.add on ssh github
+
+*.git init
+1.git add .
+2.git status
+3.git commit -m "first commit"
+4. git config --global user.email "you@example.com"
+5.git commit -m "first commit"
+6. git remote add git@github.com:saurabhlomte143/demo-repo.git
+7.git push -u origin main
+
+1.create folder
+2.create text file
+3.cmd git init
+4.and above process..1,2,3
+
+
+#branch
+git branch
+git checkout -b branchname
+git checkout branchname
+
+#merge
+git diff another-branchname
+git checkout another-branchname
+
+
+
+
+
